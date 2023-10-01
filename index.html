@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="js/menuToggle.js" defer></script>
+    <script src="js/scrollObserver.js" async></script>
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h3><span>G.</span> Martínez</h3>
+      </div>
+
+      <div class="menu">
+        <button class="menu-button" title="Open Menu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path></svg>
+        </button>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#home-id" class="btn-header">Inicio</a></li>
+          <li><a href="#about-id" class="btn-header">Sobre mí</a></li>
+          <li><a href="#projects-id" class="btn-header">Proyectos</a></li>
+          <li><a href="#contact-id" class="btn">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="home" id="home-id">
+        <div id="home-content" class="content right">
+          <h1>Web developer.</h1>
+          <div class="text">
+            <span class="line"></span>
+            <p>
+              Un apasionado <b>Desarrollador Web</b> en formación. Mi viaje en
+              el mundo del desarrollo comenzó con una chispa de curiosidad y
+              desde entonces no he dejado de explorar y aprender.
+            </p>
+          </div>
+          <a href="#" class="btn">
+            <i class="ri-file-user-fill ri-lg"></i>
+            CV
+          </a>
+        </div>
+        <div class="image-content left" id="home-image">
+          <div class="image">
+            <img src="assets/img/home-perfil.jpg" alt="profile" />
+          </div>
+          <div class="image-shadow"></div>
+          <div class="icons">
+            <a href="#" class="icon_button">
+              <i class="ri-github-line ri-lg"></i>
+            </a>
+            <a href="#" class="icon_button">
+              <i class="ri-linkedin-fill ri-lg"></i>
+            </a>
+            <a href="#" class="icon_button">
+              <i class="ri-facebook-fill ri-lg"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="about-me" id="about-id">
+        <div class="wrapper">
+          <div class="image right" id="about-image">
+            <img src="assets/img/about-perfil.jpeg" alt="profile" />
+          </div>
+          <div class="content left" id="about-content">
+            <div class="history">
+              <h2>Sobre mí</h2>
+              <div class="text">
+                <span class="line"></span>
+                <div class="who">
+                  <p>
+                    ¡Hola! Soy Gustavo Ángel Martínez, estudiante en el
+                    Instituto Tecnológico Superior de Ciudad Hidalgo. Siempre en
+                    busca de oportunidades emocionantes y desafiantes, estoy
+                    constantemente aprendiendo y mejorando mis habilidades.
+                  </p>
+                  <div class="skills">
+                    <ul>
+                      <li>
+                        <b>Mis habilidades son: </b>Html, CSS, Javascript,
+                        Mysql, Figma...
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="contact-button">
+                    <a href="#" class="btn">
+                      <i class="ri-message-2-line ri-lg"></i>
+                      Contáctame
+                    </a>
+                    <a href="#" class="icon_button">
+                      <i class="ri-linkedin-fill ri-lg"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="projects" id="projects-id">
+        <div class="wrapper">
+          <div class="content">
+            <h2 class="up" id="project-title">Proyectos</h2>
+            <div class="project-items">
+              <div class="item up" id="item1">
+                <img src="assets/img/project-1.jpg" alt="project-1" />
+                <div class="project-info">
+                  <h3>Proyecto 1</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nemo , dolore fuga voluptatum odit rem iste
+                  </p>
+                  <a href="#" class="git-icon">
+                    <i class="ri-github-line"></i> View
+                  </a>
+                  </a>
+                </div>
+              </div>
+              <div class="item up" id="item2">
+                <img src="assets/img/project-2.jpg" alt="project-2" />
+                <div class="project-info">
+                  <h3>Proyecto 2</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nemo exercitationem, dolore fuga voluptatum odit rem iste
+                  </p>
+                  <a href="#" class="git-icon">
+                    <i class="ri-github-line"></i> View
+                  </a>
+                  </a>
+                </div>
+              </div>
+              <div class="item up" id="item3">
+                <img src="assets/img/project-3.jpg" alt="project-3" />
+                <div class="project-info">
+                  <h3>Proyecto 3</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nemo exercitationem, dolore fuga voluptatum odit rem iste
+                  </p>
+                  <a href="#" class="git-icon">
+                    <i class="ri-github-line"></i> View
+                  </a>
+                </div>
+              </div>
+              <div class="item up" id="item4">
+                <img src="assets/img/project-3.jpg" alt="project-3" />
+                <div class="project-info">
+                  <h3>Proyecto 4</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nemo exercitationem, dolore fuga voluptatum odit rem iste
+                  </p>
+                  <a href="#" class="git-icon">
+                    <i class="ri-github-line"></i> View
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact-id">
+        <div class="wrapper">
+          <div class="content">
+            <div class="info left" id="contact-content">
+              <h2>Contacto</h2>
+              <p>
+                <b>
+                Si deseas ponerte en contacto conmigo, puedes enviarme un mensaje
+                a través del siguiente formulario.
+                </b>
+              </p>
+              <p>
+                Te pido <b>nombre</b> y <b>correo electrónico</b>, pero no te preocupes, no te
+                enviaré spam. Solo responderé a tu mensaje.
+              </p>
+            </div>
+            <form action="get" id="contact-form" class="right">
+              <h3>Mándame un mensaje</h3>
+              <div class="input-field name">
+                <input type="text" placeholder="Nombre" required />
+              </div>
+              <div class="input-field email">
+                <input type="email" placeholder="Correo" required />
+              </div>
+              <div class="input-field subject">
+                <input type="text" placeholder="Asunto" required />
+              </div>
+              <div class="input-field message">
+                <textarea placeholder="Mensaje" required></textarea>
+              </div>
+              <input type="submit" value="Enviar Mensaje" class="btn" />
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="content down" id="footer-content">
+        <p>© 2023 Gustavo Ángel Martínez. Todos los derechos reservados.</p>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Sobre mí</a></li>
+          <li><a href="#">Proyectos</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
