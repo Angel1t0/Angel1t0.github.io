@@ -18,7 +18,7 @@ This is my personal web portfolio, showcasing my skills and projects in the worl
 
 ## Preview
 
-[Live Preview Link](#)
+[[Live Preview Link](#)](https://angel1t0.github.io/)
 
 2. Open the `index.html` file in your browser to view the portfolio.
 
