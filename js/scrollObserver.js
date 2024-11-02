@@ -5,8 +5,6 @@ const aboutImage = document.getElementById('about-image');
 const projectTitle = document.getElementById('project-title');
 const projectItem1 = document.getElementById('item1');
 const projectItem2 = document.getElementById('item2');
-const projectItem3 = document.getElementById('item3');
-const projectItem4 = document.getElementById('item4');
 const contactContent = document.getElementById('contact-content');
 const contactForm = document.getElementById('contact-form');
 const footerContent = document.getElementById('footer-content');
@@ -24,12 +22,12 @@ const activateContent = (inputs) => {
 const scrollObserver = new IntersectionObserver(activateContent, {
     root: null,
     rootMargin: '0px',
-    threshold: 0.3
+    threshold: 0.1
 });
 
 const elementsToObserve = [
   homeContent, homeImage, aboutContent, aboutImage, projectTitle,
-  projectItem1, projectItem2, projectItem3, projectItem4,
+  projectItem1, projectItem2,
   contactContent, contactForm, footerContent
 ];
 

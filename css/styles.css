@@ -157,7 +157,8 @@ a {
 }
 
 section {
-  padding-block: 6rem;
+  padding-block: 3rem;
+  scroll-margin-top: 4rem; /* Añade esta línea */
 }
 
 
@@ -308,6 +309,15 @@ section {
 
 .about-me .history .skills {
   line-height: 1.2rem;
+}
+
+.about-me .history .skills ul li {
+  margin: .5rem 0;
+}
+
+
+.about-me .history .skills h3 {
+  margin: 1rem 0;
 }
 
 .about-me .who {
@@ -706,6 +716,7 @@ footer ul li a {
 
   section {
     padding-block: 4rem;
+    scroll-margin-top: 2rem; /* Añade esta línea */
   }
 
   .line::before {
